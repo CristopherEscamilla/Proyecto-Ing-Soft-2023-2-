@@ -2,6 +2,7 @@
 
 ## Integrantes
 - Alejandro Axel Rodríguez Sánchez
+- Manuel Alcalá Marín
 
 ---
 
