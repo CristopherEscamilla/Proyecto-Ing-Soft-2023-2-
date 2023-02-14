@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página web</title>
+</head>
+<body>
+	<h1>Bienvenido a mi página web</h1>
+	<p>Esta es una página de ejemplo que muestra cómo se utiliza HTML para crear contenido web.</p>
+	<img src="https://mi-sitio-web.com/imagen.jpg" alt="Imagen de ejemplo">
+</body>
+</html>
+
+
+
+En este ejemplo, la página comienza con la declaración del tipo de documento (<!DOCTYPE html>). Luego, se define el esqueleto de la página utilizando las etiquetas html, head y body.
+
+Dentro de la sección head se define el título de la página (con la etiqueta title), que aparecerá en la pestaña del navegador.
+
+En la sección body se define el contenido de la página. Primero se utiliza la etiqueta h1 para definir un encabezado de primer nivel, seguido de un párrafo de texto con la etiqueta p. 
+Finalmente, se incluye una imagen utilizando la etiqueta img, especificando la URL de la imagen en el atributo src y agregando una descripción alternativa en el atributo alt.

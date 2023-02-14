@@ -1,0 +1,18 @@
+Aquí un ejemplo sencillo de un objeto JSON con dos atributos: 
+"nombre" y "edad", donde "nombre" es una cadena de caracteres y "edad" es un número entero:
+
+
+{
+  "nombre": "Juan",
+  "edad": 30
+}
+También es posible representar arreglos en JSON, por ejemplo, un arreglo de cadenas de caracteres:
+
+
+{
+  "nombres": ["Juan", "María", "Pedro"]
+}
+
+
+En este caso, el atributo "nombres" es un arreglo que contiene tres cadenas de caracteres: "Juan", "María" y "Pedro". 
+Cada elemento del arreglo está separado por una coma, y los elementos están encerrados entre corchetes [].

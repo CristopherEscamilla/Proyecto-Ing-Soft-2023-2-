@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página web</title>
+</head>
+<body>
+	<h1>Bienvenido a mi página web</h1>
+	<button onclick="mostrarMensaje()">Haz clic aquí</button>
+
+	<script>
+		function mostrarMensaje() {
+			alert('¡Hola mundo!');
+		}
+	</script>
+</body>
+</html>
+
+
+En este ejemplo, se crea un botón utilizando la etiqueta button. 
+Se agrega un atributo onclick que indica qué función de JavaScript debe ejecutarse cuando el botón se hace clic.
+
+En la sección script, se define la función mostrarMensaje(), que muestra un mensaje de alerta en el navegador utilizando la función alert(). 
+Cuando el usuario hace clic en el botón, se ejecuta la función mostrarMensaje(), y se muestra el mensaje de alerta.
+
+Este es un ejemplo sencillo de cómo JavaScript puede usarse para crear interactividad en una página web.

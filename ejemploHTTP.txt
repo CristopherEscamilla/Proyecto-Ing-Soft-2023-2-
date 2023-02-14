@@ -1,0 +1,39 @@
+Supongamos que un usuario desea acceder a una página web alojada en un servidor. 
+Para hacerlo, el usuario abre su navegador web y escribe la URL de la página que desea visitar. 
+El navegador envía una solicitud HTTP al servidor web que aloja la página.
+
+La solicitud HTTP del navegador puede tener la siguiente estructura:
+
+GET /index.html HTTP/1.1
+Host: www.ejemplo.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate, br
+Accept-Language: es-ES,es;q=0.9
+
+En esta solicitud, se puede ver que el verbo HTTP utilizado es GET, lo que indica que el navegador está solicitando el recurso index.html en el servidor. 
+Además, se proporciona información adicional en forma de cabeceras HTTP, como la dirección del servidor, el agente de usuario utilizado (en este caso, el navegador Chrome), 
+los tipos de contenido aceptados por el navegador, y otros.
+
+El servidor web que aloja la página recibe la solicitud HTTP y procesa la solicitud para enviar una respuesta HTTP al navegador. La respuesta HTTP puede tener la siguiente estructura:
+
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 2345
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página web</title>
+</head>
+<body>
+	<h1>Bienvenido a mi página web</h1>
+	<p>Esta es una página de ejemplo.</p>
+</body>
+</html>
+
+En esta respuesta, se puede ver que se utiliza el código de estado HTTP 200 OK, lo que indica que la solicitud fue procesada correctamente. 
+Además, se proporciona información adicional en forma de cabeceras HTTP, como el tipo de contenido que se devuelve en la respuesta. 
+Luego, se devuelve el cuerpo de la respuesta, que es el contenido HTML que se mostrará en el navegador.
+
+Finalmente, el navegador recibe la respuesta HTTP del servidor web y muestra el contenido HTML en la pantalla del usuario, lo que permite al usuario acceder a la página web.
