@@ -2,6 +2,7 @@
 
 ## Integrantes
 - Alejandro Axel Rodríguez Sánchez
+- Helen Michelle Salazar Zaragoza
 
 ---
 
